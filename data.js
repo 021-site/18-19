@@ -11,6 +11,16 @@ window.SITE_DATA = {
 
   items: [
     {
+      "id": "1793102422219",
+      "name": "سلام",
+      "age": "",
+      "date": "18 دی",
+      "place": "میناب",
+      "desc": "",
+      "image": "",
+      "candles": 0
+    },
+    {
       "id": "1793028370237",
       "name": "مانی صفرپور",
       "age": "۱۸",
@@ -18,7 +28,7 @@ window.SITE_DATA = {
       "place": "سلسبیل تهران",
       "desc": "",
       "image": "",
-      "candles": 1
+      "candles": 2
     },
     {
       "id": "1793028370238",
@@ -28,7 +38,7 @@ window.SITE_DATA = {
       "place": "گنبد کاووس",
       "desc": "",
       "image": "",
-      "candles": 1
+      "candles": 2
     }
   ]
 };
