@@ -12,10 +12,10 @@ const MEMORIAL_META = {
 const MARTYRS = [
   {
     "id": "1793100520075",
-    "name": "salam",
-    "age": "14",
+    "name": "سپهر ابراهیمی",
+    "age": "18",
     "date": "18 دی",
-    "place": "میناب",
+    "place": "",
     "desc": "",
     "image": "",
     "candles": 0
