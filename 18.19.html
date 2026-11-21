@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>۱۸ و ۱۹ دی — یادشان گرامی</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;500;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="intro"><img alt=""><p>یادشان گرامی…</p></div><div id="glow"></div><div id="spot"></div><div id="bar"></div>
+<canvas id="fx"></canvas>
+<div class="wrap" id="site">
+  <header class="head">
+    <h1>۱۸ و ۱۹ دی</h1>
+    <div class="lg"><img class="logo" id="logo" src="logo.jpg" alt="لوگوی دی"></div>
+    <div class="yr">۱۴۰۵ <span>♥</span></div>
+  </header>
+  <section class="story">
+    <img src="poster.jpg" alt="پوستر ۱۸ و ۱۹ دی، یادشان گرامی">
+    <div class="notes" id="notes"></div>
+    <p class="sum">۱۸ + ۱۹ = <b id="cnt"></b></p>
+  </section>
+  <section class="cand">
+    <div class="candles" id="candles"></div>
+    <button class="btn" id="light">🕯️ شمعی روشن کن</button>
+    <p class="sum" id="cc" style="font-size:15px;margin-top:8px"></p>
+  </section>
+  <h2 class="hd">نام‌ها</h2>
+  <div class="bar">
+    <input id="q" type="search" placeholder="جستجوی نام">
+    <select id="day" aria-label="فیلتر روز"><option value="">همه روزها</option><option value="18">۱۸ دی</option><option value="19">۱۹ دی</option></select>
+  </div>
+  <div class="grid" id="grid"></div>
+  <p class="foot">یادشان گرامی</p>
+</div>
+
+<div class="wrap" id="admin">
+  <div class="top"><h1 style="margin:0;font-size:30px">پنل مدیریت</h1><button class="btn g" id="out">خروج</button></div>
+  <div class="box" id="login"><div class="f"><label>رمز مدیریت<input id="pw" type="password" autocomplete="off"></label><button class="btn" id="go">ورود</button></div></div>
+  <div id="panel" style="display:none">
+    <div class="box f">
+      <div class="row">
+        <label>اسم<input id="a_n"></label><label>سن<input id="a_a" inputmode="numeric"></label><label>شهر<input id="a_c"></label>
+        <label>روز<select id="a_d"><option value="18">۱۸ دی</option><option value="19">۱۹ دی</option></select></label>
+      </div>
+      <div class="row"><button class="btn g" id="a_p">+ افزودن عکس</button><button class="btn" id="a_s">ثبت</button></div>
+      <input type="file" id="a_f" accept="image/*" hidden><div class="msg" id="a_m"></div>
+    </div>
+    <div class="box f">
+      <label>لیست اسامی (هر اسم در یک خط، یا با ویرگول جدا شود؛ اختیاری: نام|سن|شهر)<textarea id="l_t" rows="5"></textarea></label>
+      <div class="row"><label>روز لیست<select id="l_d"><option value="18">۱۸ دی</option><option value="19">۱۹ دی</option></select></label><button class="btn" id="l_s" style="align-self:end">ثبت لیست</button></div>
+    </div>
+    <div class="box f">
+      <label>عدد بالای صفحه<input id="s_c" inputmode="numeric"></label>
+      <label>سه متن احساسی کنار عکس (هر خط یک متن)<textarea id="s_n" rows="3"></textarea></label>
+      <button class="btn" id="s_s">ذخیره تنظیمات</button>
+    </div>
+    <div class="box"><div class="pl" id="pl"></div></div>
+    <div class="box f">
+      <p style="margin:0;color:var(--ash)">تغییرات فقط در همین مرورگر ذخیره می‌شود. برای دیده شدن در همه لینک‌ها فایل به‌روز را بگیر و در گیت‌هاب جایگزین index.html کن.</p>
+      <button class="btn" id="dl">دانلود فایل به‌روز (index.html)</button>
+    </div>
+  </div>
+</div>
+
+<script id="seed" type="application/json">{"rev":0,"pw":"zs7m4ncnkl","count":40000,"notes":["نام‌شان در دل این خاک جاودانه می‌ماند.","هر نام یک زندگی بود؛ و هر خانه‌ای هنوز منتظر است.","فراموش‌شان نمی‌کنیم. یادشان گرامی."],"people":[]}</script>
+<script src="app.js"></script>
+</body>
+</html>
